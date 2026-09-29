@@ -6,6 +6,8 @@ public class Numero {
 
         int opcao = 0;
 
+        while(opcao != 3){
+
         System.out.println("Opção 1: Deseja calcular área quadrado: ");
         System.out.println("Opção 2: Deseja calcular área círculo: ");
         System.out.println("Opção 2: Sair: ");
@@ -28,4 +30,6 @@ public class Numero {
             System.out.println("Opção inválida");
         }
     }
+}
+
 }
